@@ -28,7 +28,7 @@ header {
 main {
  background: silver;
  color: black;
- width: 65%;
+ width: 60%;
  height: 550px;
  padding: 20px 50px;
  float: left;
@@ -38,7 +38,7 @@ main {
 aside {
  background: grey;
  color: gold; 
- width: 35%;
+ width: 30%;
  height: 550px;
  padding: 75px 20px;
  float: right;
