@@ -23,7 +23,7 @@ header {
  text-align: center;
  line-height: 100px;
  border-bottom: 5px solid grey;
-/* float: left; */
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 main {
