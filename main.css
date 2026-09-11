@@ -22,7 +22,7 @@ header {
  height: 100px;
  text-align: center;
  line-height: 100px;
- border-bottom: 5px solid grey;
+ border-bottom: 5px double red;
  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
