@@ -35,7 +35,6 @@ main {
  padding: 20px 50px;
  float: left;
  overflow-wrap: break-word;
- display: flex;
 }
 
 aside {
@@ -46,7 +45,6 @@ aside {
  padding: 75px 20px;
  float: left;
  overflow-wrap: break-word;
- display: flex;
 }
 
 footer {
