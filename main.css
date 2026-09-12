@@ -36,6 +36,7 @@ main {
  overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 aside {
