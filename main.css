@@ -47,7 +47,7 @@ aside {
  overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
- border-left: 5px groove red;
+ border-left: 3px groove red;
 }
 
 footer {
