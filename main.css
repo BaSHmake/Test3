@@ -41,17 +41,17 @@ main {
 
 aside {
  background: linear-gradient(45deg, red, orange, yellow, green, cyan,  blue, violet);
- color: gold; 
+ color: silver; 
  height: 550px;
  padding: 75px 20px;
- overflow-wrap: break-word;
+ overflow-wrap: breeak-word;
  flex: 1;
  box-sizing: border-box;
  border-left: 3px groove red;
 }
 
 footer {
-background: black;
+background: black
 color: red; 
 width: 100%; 
 height: 50px;
