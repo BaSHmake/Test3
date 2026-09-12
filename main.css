@@ -54,7 +54,7 @@ a {
 
 aside {
  background: linear-gradient(45deg, black, red, orange, yellow);
- color: grey; 
+ color: black; 
  height: 550px;
  padding: 75px 20px;
  overflow-wrap: breeak-word;
