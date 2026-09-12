@@ -76,3 +76,9 @@ line-height: 50px;
 border-top: 7px double red;
 }
 
+main, aside {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    min-width: 0; 
+}
+
