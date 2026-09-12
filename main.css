@@ -40,7 +40,8 @@ main {
 }
 
 li {
- 
+ position: relative;
+ left: -15px;
 }
 
 aside {
