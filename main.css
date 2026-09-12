@@ -59,7 +59,7 @@ aside {
 button {
  width: 150px;
  height: 40px;
- background: red;
+ background: linear-gradient(45deg, red, orange, red, yellow, red) ;
  color: black;
  border: 2px solid black;
  border-radius: 10px;
