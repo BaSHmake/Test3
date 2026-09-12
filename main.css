@@ -47,6 +47,11 @@ li {
  color: black;
 }
 
+a {
+ color: black;
+ 
+}
+
 aside {
  background: linear-gradient(45deg, black red, orange, yellow,);
  color: grey; 
