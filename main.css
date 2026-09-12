@@ -44,10 +44,11 @@ main {
 li {
  position: relative;
  left: -15px;
+ color: black;
 }
 
 aside {
- background: linear-gradient(45deg, red, orange, yellow, green, cyan,  blue, violet);
+ background: linear-gradient(45deg, black red, orange, yellow, red);
  color: grey; 
  height: 550px;
  padding: 75px 20px;
