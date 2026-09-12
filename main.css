@@ -48,7 +48,7 @@ li {
 }
 
 aside {
- background: linear-gradient(45deg, black red, orange, yellow, red);
+ background: linear-gradient(45deg, black red, orange, yellow,);
  color: grey; 
  height: 550px;
  padding: 75px 20px;
