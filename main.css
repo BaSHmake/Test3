@@ -49,14 +49,14 @@ aside {
  background: linear-gradient(45deg, black, red, orange, yellow);
  color: black; 
  height: 550px;
- padding: 75px 20px;
- overflow-wrap: breeak-word;
+ padding: 20px;
+ overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
  border-left: 3px groove red;
 }
 
-bottom {
+button {
  width: 150px;
  height: 40px;
  background: red;
