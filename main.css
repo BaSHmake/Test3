@@ -40,14 +40,14 @@ main {
 }
 
 aside {
- background: grey;
+ background: linear-gradient(45deg, red, orange, yellow, green, cyan,  blue, violet);
  color: gold; 
  height: 550px;
  padding: 75px 20px;
  overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
- border-left: 5px solid red
+ border-left: 5px solid red;
 }
 
 footer {
