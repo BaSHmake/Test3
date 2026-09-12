@@ -3,6 +3,7 @@ body {
  padding: 0px;
  display: flex;
  flex-wrap: wrap;
+ background: rgba(255, 20, 20, 0.1);
 }
 /* body {
     background-color: #1a2f44;
