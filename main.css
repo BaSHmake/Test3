@@ -19,10 +19,6 @@ body {
  }
 }
 
-/* p {
- font-size: 30px;
-} */
-
 header {
  background: black;
  color: red;
@@ -58,6 +54,18 @@ main {
 
 #unmain {flex: 1; 
          border-top: 3px solid red;}
+
+#go {
+ 
+ width: 150px;
+ height: 40px;
+ background: linear-gradient(45deg, red, orange, red,) ;
+ color: black;
+ border: 2px solid black;
+ border-radius: 10px;
+ text-align: center;
+ box-shadow: 0 5px 0 #990000;
+}
 
 li {
  position: relative;
