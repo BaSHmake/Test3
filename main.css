@@ -5,6 +5,18 @@ body {
  flex-wrap: wrap;
  background: rgba(255, 20, 20, 0.2);
  font-family: 'Inter', sans-serif;
+ animation: LoaDing 0.7s ease;
+}
+
+@keyframes LoaDing {
+ from {
+  opacity: 0;
+  transform: translateX(-40px);
+ }
+ to {
+  opacity: 1;
+  transform: translateX(0);
+ }
 }
 
 /* p {
