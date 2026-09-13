@@ -56,8 +56,8 @@ main {
          border-top: 3px solid red;}
 
 #go {
- 
- width: 150px;
+ display: inline-block;
+ width: 120px;
  height: 40px;
  background: linear-gradient(45deg, red, orange, red,) ;
  color: black;
