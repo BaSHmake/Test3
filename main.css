@@ -56,7 +56,8 @@ main {
 
 #main {flex: 3;}
 
-#unmain {flex: 1;}
+#unmain {flex: 1; 
+         border-top: 3px solid red;}
 
 li {
  position: relative;
