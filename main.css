@@ -48,7 +48,12 @@ li {
 
 a {
  color: black;
- 
+ transition: color 0.4s ease;
+ transform: scale(1.05);
+}
+
+a:hover {
+ color: gold;
 }
 
 aside {
