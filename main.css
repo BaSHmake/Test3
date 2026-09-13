@@ -60,11 +60,13 @@ li {
 
 a {
  color: black;
- transition: color 0.4s ease;
- transform: scale(1.05);
+ transition: color 0.25s ease;
+ transform: scale(1.1);
 }
 
 a:hover {
+ transition: all 0.25s ease;
+ transform: scale(1.1) rotate(10deg) translateY(5px);
  color: gold;
 }
 
