@@ -23,6 +23,12 @@ header {
  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
+hedr:hover {
+ color: orange;
+ transform: scale(1.1);
+ transition: all 0.2s ease;
+}
+
 main {
  background: #990606;
  color: black;
