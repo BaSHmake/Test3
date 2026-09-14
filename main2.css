@@ -20,11 +20,11 @@ body {
  text-align: center;
  border: 3px solid silver;
  border-radius: 10px;
- box-shadow: 0 0 40px rgba(255, 100, 0, 0.5) 
+ box-shadow: 0 0 40px rgba(255, 100, 0, 0.5);
  animation: krutka 5s infinite linear;
 }
 
 @keyframes krutka {
- from {transform: rotateY(0deg)}
- to {transform: rotateY(360deg}
+ from {transform: rotateY(0deg);}
+ to {transform: rotateY(360deg);}
 }
