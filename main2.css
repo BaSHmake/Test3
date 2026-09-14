@@ -8,7 +8,6 @@ body {
 
 #qwerty {
  perspective: 600px;
- transform-style: preserve-3d;
 }
 
 #cubik {
@@ -19,7 +18,7 @@ body {
  position: relative;
 }
 
-#front {
+.www {
  width: 150px;
  height: 150px;
  background: linear-gradient(45deg, red, orange, yellow);
@@ -34,11 +33,11 @@ body {
 }
 
 #font { transform: translateZ(75px);}
-#back { rotateY(180deg); translateZ(75px); }
-#right { rotateY(180deg); translateZ(75px); }
-#left { ratateY(180deg); translateZ(75px); }
-#top { ratateY(180deg); translateZ(75px); }
-#bottom { ratateY(180deg); translateZ(75px); }
+#back { transform: rotateY(180deg) translateZ(75px); }
+#right { transform: rotateY(90deg) translateZ(75px); }
+#left { transform: ratateY(-90deg) translateZ(75px); }
+#top { transform: ratateX(90deg) translateZ(75px); }
+#bottom { transform: ratateX(-90deg) translateZ(75px); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg);}
