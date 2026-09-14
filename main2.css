@@ -10,6 +10,13 @@ body {
  transform-style: preserve-3d;
 }
 
+#cubik {
+ perspective: 600px;
+ transform-style: preserve-3d;
+ animation: krutka 5s infinite linear;
+ 
+}
+
 #front {
  width: 150px;
  height: 150px;
