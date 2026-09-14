@@ -1,1 +1,30 @@
-body
+body {
+ background: #1a1a2e;
+ margin: 0;
+ padding: 0;
+ 
+}
+
+#qwerty {
+ perspective: 600px;
+ transform-style: preserve-3d;
+}
+
+#cube {
+ width: 150px;
+ height: 150px;
+ background: linear-gradient(45deg, red, orange, yellow);
+ color: black;
+ font-size: 35px;
+ display: flex;
+ text-align: center;
+ border: 3px solid silver;
+ border-radius: 10px;
+ box-shadow: 0 0 40px rgba(255, 100, 0, 0.5) 
+ animation: krutka 5s infinite linear;
+}
+
+@keyframes krutka {
+ from {transform: rotateY(0deg)}
+ to {transform: rotateY(360deg}
+}
