@@ -2,6 +2,7 @@ body {
  background: #1a1a2e;
  margin: 0;
  padding: 0;
+ align-items: center;
  
 }
 
@@ -11,10 +12,11 @@ body {
 }
 
 #cubik {
- perspective: 600px;
  transform-style: preserve-3d;
  animation: krutka 5s infinite linear;
- 
+ width: 150px;
+ height: 150px;
+ position: relative;
 }
 
 #front {
@@ -28,8 +30,15 @@ body {
  border: 3px solid silver;
  border-radius: 10px;
  box-shadow: 0 0 40px rgba(255, 100, 0, 0.5);
- animation: krutka 5s infinite linear;
+ position: absolute;
 }
+
+#font { transform: translateZ(75px);}
+#back { rotateY(180deg); translateZ(75px); }
+#right { rotateY(180deg); translateZ(75px); }
+#left { ratateY(180deg); translateZ(75px); }
+#top { ratateY(180deg); translateZ(75px); }
+#bottom { ratateY(180deg); translateZ(75px); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg);}
