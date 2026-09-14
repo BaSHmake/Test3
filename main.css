@@ -41,7 +41,7 @@ main {
  background: #990606;
  color: black;
  height: 550px;
- padding: 20px;
+ /* padding: 20px; */
  overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
@@ -50,10 +50,12 @@ main {
  flex-direction: column;
 }
 
-#main {flex: 3;}
+#main {flex: 3;
+       padding: 20px;}
 
 #unmain {flex: 1; 
-         border-top: 3px solid red;}
+         border-top: 3px solid red;
+         padding: 10px;}
 
 #go {
  display: inline-block;
@@ -105,7 +107,7 @@ button {
  border-radius: 10px;
  text-align: center;
  box-shadow: 0 5px 0 #990000;
- animation: puk 2s infinite
+ animation: puk 2s infinite;
 }
 
 @keyframes puk {
