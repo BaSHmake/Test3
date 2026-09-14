@@ -10,7 +10,7 @@ body {
  transform-style: preserve-3d;
 }
 
-#cube {
+#front {
  width: 150px;
  height: 150px;
  background: linear-gradient(45deg, red, orange, yellow);
