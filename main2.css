@@ -32,12 +32,12 @@ body {
  position: absolute;
 }
 
-#font { transform: translateZ(75px);}
+#front { transform: translateZ(75px);}
 #back { transform: rotateY(180deg) translateZ(75px); }
 #right { transform: rotateY(90deg) translateZ(75px); }
-#left { transform: ratateY(-90deg) translateZ(75px); }
-#top { transform: ratateX(90deg) translateZ(75px); }
-#bottom { transform: ratateX(-90deg) translateZ(75px); }
+#left { transform: rotateY(-90deg) translateZ(75px); }
+#top { transform: rotateX(90deg) translateZ(75px); }
+#bottom { transform: rotateX(-90deg) translateZ(75px); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg);}
