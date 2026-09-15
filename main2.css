@@ -39,7 +39,11 @@ body {
 #top { transform: rotateX(90deg) translateZ(75px); }
 #bottom { transform: rotateX(-90deg) translateZ(75px); }
 
+#cubik:hover {
+ animation-play-state: paused;
+}
+
 @keyframes krutka {
- from {transform: rotateY(0deg);}
- to {transform: rotateY(360deg);}
+ from {transform: rotateY(0deg) rotateX(0deg);}
+ to {transform: rotateY(360deg) rotateX(360deg);}
 }
