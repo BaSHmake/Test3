@@ -65,13 +65,13 @@ body {
  display: flex;
  text-align: center;
  position: absolute;
- /* transform-origin: center bottom; */
+ transform-origin: center bottom;
 }
 
 #front2 { transform: rotateX(90deg);}
-#back2 { transform: rotateY(0deg)   rotateX(20deg); }
-#right2 { transform: rotateY(120deg) rotateX(20deg); }
-#left2 { transform: rotateY(240deg) rotateX(20deg); }
+#back2 { transform: rotateY(0deg)   rotateX(24deg); }
+#right2 { transform: rotateY(120deg) rotateX(24deg); }
+#left2 { transform: rotateY(240deg) rotateX(24deg); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg) rotateX(0deg);}
