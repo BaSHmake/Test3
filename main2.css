@@ -48,7 +48,7 @@ body {
 
 #treug {
  transform-style: preserve-3d;
- animation: krutka 6s infinite linear;
+/* animation: krutka 6s infinite linear; */
  width: 130px;
  height: 130px;
  position: relative;
