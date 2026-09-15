@@ -47,33 +47,30 @@ body {
 #treug {
  transform-style: preserve-3d;
  animation: krutka 6s infinite linear;
- width: 120px;
- height: 120px;
+ width: 130px;
+ height: 130px;
  position: relative;
 }
 
 .xxx{
  width: 0;
  height: 0;
- border-left: 120px;
- border-right: 120px;
- border-bottom: 120px;
- background:
- linear-gradient(60deg, black, red, orange);
+ border-left: 75px solid transparent;
+ border-right: 75px solid transparent;
+ border-bottom: 130px solid rgba(255, 50, 0, 0.8);
  color: white;
  font-size: 35px;
  display: flex;
  text-align: center;
- border: 3px solid silver;
- border-radius: 5px;
  box-shadow: 0 0 40px rgba(255, 100, 0, 0.5);
  position: absolute;
+ transform-origin: center bottom;
 }
 
-#front2 { transform: translateZ(60px);}
-#back2 { transform: rotateX(-90deg) translateZ(60px); }
-#right2 { transform: rotateX(60deg) translateZ(60px); }
-#left2 { transform: rotateX(120deg) translateZ(60px); }
+#front2 { transform: rotateX(90deg);}
+#back2 { transform: rotateX(30deg)  rotateY(0deg); }
+#right2 { transform: rotateX(30deg) rotateY(120deg); }
+#left2 { transform: rotateX(30deg) rotateY(240deg); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg) rotateX(0deg);}
