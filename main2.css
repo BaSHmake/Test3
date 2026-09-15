@@ -57,8 +57,8 @@ body {
 .xxx{
  width: 0;
  height: 0;
- border-left: 75px solid transparent;
- border-right: 75px solid transparent;
+ border-left: 65px solid transparent;
+ border-right: 65px solid transparent;
  border-bottom: 130px solid rgba(255, 50, 0, 0.8);
  color: white;
  font-size: 35px;
