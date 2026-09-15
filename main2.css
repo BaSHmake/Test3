@@ -5,9 +5,11 @@ body {
  align-items: center;
  justify-content: center;
  display: flex;
+ flex-direction: column;
+ gap: 100px;
 }
 
-#qwerty {
+.qwerty {
  perspective: 600px;
 }
 
@@ -68,9 +70,9 @@ body {
 }
 
 #front2 { transform: rotateX(90deg);}
-#back2 { transform: rotateX(30deg)  rotateY(0deg); }
-#right2 { transform: rotateX(30deg) rotateY(120deg); }
-#left2 { transform: rotateX(30deg) rotateY(240deg); }
+#back2 { transform: rotateY(0deg)   rotateX(30deg); }
+#right2 { transform: rotateY(120deg) rotateX(30deg); }
+#left2 { transform: rotateY(240deg) rotateX(30deg); }
 
 @keyframes krutka {
  from {transform: rotateY(0deg) rotateX(0deg);}
