@@ -98,5 +98,18 @@ body {
  border-top: 0px;
 }
 
+#f1 { 
+ transform: rotateX(30deg);
+ transform-origin: 0 0;
+}
 
+#f2 {
+ transform-origin: 100px 0;
+ transform: rotateY(90deg) rotateX(-30deg);
+ border-bottom-color: purple;
+}
+
+#f3 {
+
+}
 
