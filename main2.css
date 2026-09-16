@@ -110,6 +110,14 @@ body {
 }
 
 #f3 {
+ transform-origin: 100px 0;
+ transform: rotateY(270deg) rotateY(-30deg);
+ border-bottom-color: hotpink;
+}
 
+#f4 {
+ transform-origin: 100px 0;
+ transform: rotateY(0deg) rotateX(-30deg);
+ border-bottom-color: yellow;
 }
 
