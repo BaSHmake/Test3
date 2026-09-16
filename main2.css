@@ -112,7 +112,7 @@ body {
 
 #f3 {
  transform-origin: 100px 0;
- transform: rotateY(270deg) rotateY(-30deg);
+ transform: rotateY(270deg) rotateX(-30deg);
  border-bottom-color: hotpink;
 }
 
