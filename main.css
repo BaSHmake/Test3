@@ -88,7 +88,7 @@ a:hover {
  color: gold;
 }
 
-p li {
+p, li {
  text-shadow:
   0 0 5px white, 
   0 0 10px yellow, 
