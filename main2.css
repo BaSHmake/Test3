@@ -70,12 +70,12 @@ body {
 #front2 { transform: rotateX(90deg);}
 #back2 { transform:  translateZ(64px)  rotateX(-109.5deg); }
 #right2 { transform: rotateY(120deg) rotateX(-109.5deg); }
-#left2 { transform: rotateY(240deg) rotateX(-109.5deg); }
+#left2 { transform: rotateY(240deg) rotateX(-109.5deg); } */
 
 @keyframes krutka {
  from {transform: rotateY(0deg) rotateX(0deg);}
  to {transform: rotateY(360deg) rotateX(360deg);}
-} */
+} 
 
 
 
