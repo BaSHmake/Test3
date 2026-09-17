@@ -88,10 +88,24 @@ a:hover {
  color: gold;
 }
 
-p, li {
+header p {
  text-shadow:
-  0 0 8px yellow, 
-  0 0 12px orange, 
+  0 0 8px red, 
+  0 0 12px grey 
+  0 0 16px black;
+}
+
+main p, li {
+ text-shadow:
+  0 0 6px black, 
+  0 0 9px grey, 
+  0 0 12px red;
+}
+
+aside p {
+ text-shadow:
+  0 0 8px orange, 
+  0 0 12px red, 
   0 0 16px red;
 }
 
