@@ -29,7 +29,7 @@ header {
  padding: 20px 20px;
  border-bottom: 5px double red;
  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
- box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.7); 
+ box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.7); 
 }
 
 .hedr:hover {
@@ -49,7 +49,7 @@ main {
  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
  display: flex;
  flex-direction: column;
- box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.6);
+ box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 #main {flex: 3;
@@ -120,7 +120,7 @@ aside {
  flex: 1;
  box-sizing: border-box;
  border-left: 3px groove red;
- box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.6);
+ box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 button {
@@ -156,7 +156,7 @@ height: 50px;
 text-align: center;
 line-height: 50px;
 border-top: 7px double red;
-box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.7);
+box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.7);
 }
 
 main, aside {
