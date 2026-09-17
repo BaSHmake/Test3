@@ -131,3 +131,7 @@ body {
  border: 0;
  background: blue;
 }
+
+#pira {
+ filter: drop-shadow(0 30px 50x rgba(250 190 0 0.6);
+}
