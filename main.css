@@ -91,14 +91,14 @@ a:hover {
 header p {
  text-shadow:
   0 0 8px red, 
-  0 0 12px grey 
+  0 0 12px grey, 
   0 0 16px black;
 }
 
 main p, li {
  text-shadow:
-  0 0 6px black, 
-  0 0 9px grey, 
+  0 0 6px red, 
+  0 0 9px orange, 
   0 0 12px red;
 }
 
