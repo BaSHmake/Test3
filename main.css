@@ -47,7 +47,8 @@ body {
  width: 20px;
  height: 20px;
  background: orange;
- animation: zxc 0.5 infinite alternate;
+ animation: zxc 0.5s infinite alternate;
+ border-radius: 50%;
 }
 
 .dots span:nth-child(2) {
@@ -60,7 +61,7 @@ body {
 
 @keyframes zxc {
  to {
-  tranform: translateY(-30px) 
+  transform: translateY(-30px) 
  }
 }
 
