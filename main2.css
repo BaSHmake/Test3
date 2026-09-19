@@ -1,7 +1,9 @@
 body {
  background: conic-gradient( black, blue, black, green, black);
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed; 
  margin: 0;
- padding: 0;
  align-items: center;
  justify-content: center;
  display: flex;
@@ -187,6 +189,6 @@ h1 {
 }
 
 #ots {
- margin-bottom: 500px;
+ margin-bottom: 1000px;
 }
 
