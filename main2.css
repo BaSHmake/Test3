@@ -89,7 +89,16 @@ body {
  animation: ssss 50s linear infinite;
 }
 
-.
+.s2 {
+ background-image:
+  radial-gradient(2px 2px at 15px 35px, white, transparent), 
+  radial-gradient(2px 2px at 60px 90px, white, transparent), 
+  radial-gradient(2px 2px at 120px 50px, white, transparent);
+ background-size: 300px 300px;
+ animation: ssss 100s linear infinite;
+}
+
+.s3
 
 .qwerty {
  perspective: 600px;
