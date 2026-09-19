@@ -98,7 +98,13 @@ body {
  animation: ssss 100s linear infinite;
 }
 
-.s3
+.s3 {
+ background-image: 
+  radial-gradient(3px 3px at 100px 100px, white, transparent), 
+  radial-gradient(1px 1px at 200px 50px, white, transparent), 
+ background-size: 400px 400px;
+ animation: ssss 150s linear infinite;
+}
 
 .qwerty {
  perspective: 600px;
