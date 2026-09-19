@@ -108,10 +108,10 @@ body {
 
 @keyframes ssss {
  from {
-  transform: translateX(0);
+  transform: translateY(0);
  }
  to {
-  transform: translateX(2000px);
+  transform: translateY(2000px);
  }
 }
 
