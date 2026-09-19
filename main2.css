@@ -59,6 +59,12 @@ body {
  }
 }
 
+.space {
+ position: fixed;
+ inset: 0;
+ 
+}
+
 .qwerty {
  perspective: 600px;
 }
