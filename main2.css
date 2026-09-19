@@ -106,6 +106,15 @@ body {
  animation: ssss 150s linear infinite;
 }
 
+@keyframes ssss {
+ from {
+  transform: translateX(0);
+ }
+ to {
+  transform: translateX(2000px);
+ }
+}
+
 .qwerty {
  perspective: 600px;
 }
