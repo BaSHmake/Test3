@@ -182,6 +182,10 @@ body {
  background: blue;
 }
 
+h1 {
+ color: gold;
+}
+
 #ots {
  margin-bottom: 500px;
 }
