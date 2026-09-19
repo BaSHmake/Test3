@@ -62,8 +62,34 @@ body {
 .space {
  position: fixed;
  inset: 0;
- 
+ background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+ overflow: hidden;
+ z-index: -1;
 }
+
+.star {
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ display: block;
+}
+
+.s1 {
+ background-image: 
+  radial-gradient(1px 1px at 20px 30px, white, transparent), 
+  radial-gradient(1px 1px at 40px 70px, white, transparent), 
+  radial-gradient(1px 1px at 50px 160px, white, transparent), 
+  radial-gradient(1px 1px at 90px 40px, white, transparent), 
+  radial-gradient(1px 1px at 130px 80px, white, transparent);
+ background-size: 200px 200px;
+ animation: ssss 50s linear infinite;
+}
+
+.
 
 .qwerty {
  perspective: 600px;
