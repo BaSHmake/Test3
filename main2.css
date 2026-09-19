@@ -13,7 +13,7 @@ body {
 .ld {
  position: fixed;
  inset: 0;
- background: blue;
+ background: #061a38;
  display: flex;
  justify-content: center;
  align-items: center; 
