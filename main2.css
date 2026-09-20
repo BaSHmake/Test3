@@ -86,10 +86,10 @@ body {
   radial-gradient(1px 1px at 90px 40px, white, transparent), 
   radial-gradient(1px 1px at 130px 80px, white, transparent);
  background-size: 200px 200px;
- animation: ssss 10s linear infinite;
+ animation: ss 10s linear infinite;
 }
 
-.s1::after {
+/* .s1::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -98,7 +98,7 @@ body {
     height: 100%;
     background-image: inherit;  
     background-size: inherit;
-}
+} */
 
 .s2 {
  background-image:
@@ -106,10 +106,10 @@ body {
   radial-gradient(2px 2px at 60px 90px, white, transparent), 
   radial-gradient(2px 2px at 120px 50px, white, transparent);
  background-size: 300px 300px;
- animation: ssss 20s linear infinite;
+ animation: sss 20s linear infinite;
 }
 
-.s2::after {
+/* .s2::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -118,7 +118,7 @@ body {
     height: 100%;
     background-image: inherit;
     background-size: inherit;
-}
+} */
 
 .s3 {
  background-image: 
@@ -128,7 +128,7 @@ body {
  animation: ssss 30s linear infinite;
 }
 
-.s3::after {
+/* .s3::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -137,14 +137,32 @@ body {
     height: 100%;
     background-image: inherit;
     background-size: inherit;
+} */
+
+@keyframes ss {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 0 -200px;
+ }
+}
+
+@keyframes sss {
+ from {
+ background-position: 0 0;
+ }
+ to {
+ background-position: 0 -300px;
+ }
 }
 
 @keyframes ssss {
  from {
-  transform: translateY(0);
+ background-position: 0 0;
  }
  to {
-  transform: translateY(-100vh);
+ background-position: 0 -400px;
  }
 }
 
