@@ -86,7 +86,7 @@ body {
   radial-gradient(1px 1px at 90px 40px, white, transparent), 
   radial-gradient(1px 1px at 130px 80px, white, transparent);
  background-size: 200px 200px;
- animation: ssss 50s linear infinite;
+ animation: ssss 10s linear infinite;
 }
 
 .s2 {
@@ -95,7 +95,7 @@ body {
   radial-gradient(2px 2px at 60px 90px, white, transparent), 
   radial-gradient(2px 2px at 120px 50px, white, transparent);
  background-size: 300px 300px;
- animation: ssss 100s linear infinite;
+ animation: ssss 20s linear infinite;
 }
 
 .s3 {
@@ -103,7 +103,7 @@ body {
   radial-gradient(3px 3px at 100px 100px, white, transparent), 
   radial-gradient(1px 1px at 200px 50px, white, transparent);
  background-size: 400px 400px;
- animation: ssss 150s linear infinite;
+ animation: ssss 30s linear infinite;
 }
 
 @keyframes ssss {
@@ -111,7 +111,7 @@ body {
   transform: translateY(0);
  }
  to {
-  transform: translateY(2000px);
+  transform: translateY(-100vh);
  }
 }
 
