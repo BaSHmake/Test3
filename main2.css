@@ -89,6 +89,17 @@ body {
  animation: ssss 10s linear infinite;
 }
 
+.s1::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;  
+    background-size: inherit;
+}
+
 .s2 {
  background-image:
   radial-gradient(2px 2px at 15px 35px, white, transparent), 
@@ -98,12 +109,34 @@ body {
  animation: ssss 20s linear infinite;
 }
 
+.s2::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+}
+
 .s3 {
  background-image: 
   radial-gradient(3px 3px at 100px 100px, white, transparent), 
   radial-gradient(1px 1px at 200px 50px, white, transparent);
  background-size: 400px 400px;
  animation: ssss 30s linear infinite;
+}
+
+.s3::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
 }
 
 @keyframes ssss {
