@@ -218,6 +218,9 @@ button:active {
  justify-content: space-between;
  cursor: pointer;
  position: relative;
+ margin-left: auto;
+ margin-right: auto; 
+ margin-top: 30px
 }
 
 .bikov span {
@@ -226,9 +229,9 @@ button:active {
  height: 4px;
  border-radius: 1px;
  background: yellow;
- margin-left: auto;
+/*  margin-left: auto;
  margin-right: auto; 
- margin-top: 30px;
+ margin-top: 30px; */
  transition: all 0.35s ease;
 }
 
