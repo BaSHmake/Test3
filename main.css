@@ -151,6 +151,18 @@ main p, li {
   0 0 12px red;
 }
 
+.sui {
+ display: none;
+ gap: 15px;
+ margin-top: 20px;
+ background: rgba(255, 170, 10, 0.5);
+ border-radius: 12px;
+}
+
+#burger:checked ~ .sui {
+ display: flex;
+}
+
 aside p {
  text-shadow:
   0 0 8px orange, 
