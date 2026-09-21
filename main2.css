@@ -189,7 +189,7 @@ body {
 }
 
 #burder:cheked + .bikov span:nth-child(1) {
- transform: translateY(13px) rotate(45deg);
+ transform: translateY(23px) rotate(45deg);
 }
 
 #burder:cheked + .bikov span:nth-child(2) {
@@ -197,7 +197,7 @@ body {
 }
 
 #burger:checked + .bikov span:nth-child(3) {
- transform: translateY(-13px) rotate(-45deg);
+ transform: translateY(-23px) rotate(-45deg);
 }
 
 .qwerty {
