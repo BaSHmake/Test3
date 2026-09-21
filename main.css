@@ -160,9 +160,9 @@ main p, li {
  flex-direction: column;
 }
 
-#burger:checked ~ .sui {
+ #burger:checked ~ .sui {
  display: flex;
-}
+} 
 
 aside p {
  text-shadow:
@@ -207,9 +207,9 @@ button:active {
     animation: none;
 }
 
-#burger {
+/* #burger {
  display: none; 
-}
+} */
 
 .bikov {
  display: flex;
