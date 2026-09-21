@@ -157,6 +157,7 @@ main p, li {
  margin-top: 20px;
  background: rgba(255, 170, 10, 0.5);
  border-radius: 12px;
+ flex-direction: column;
 }
 
 #burger:checked ~ .sui {
