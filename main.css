@@ -249,7 +249,7 @@ button:active {
 } 
 
 .sui {
-/* display: none; */
+ display: none; 
  gap: 15px;
  margin-top: 20px;
  background: blue;
