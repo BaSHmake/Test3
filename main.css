@@ -248,8 +248,7 @@ button:active {
  transform: translateY(-23px) rotate(-45deg);
 } 
 
-.sui {
- display: none; 
+.sui { 
  gap: 15px;
  margin-top: 20px;
  background: orange;
