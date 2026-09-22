@@ -259,7 +259,7 @@ button:active {
 }
 
  #burger:checked ~ .sui {
- display: flex;
+ display: block;
 } 
 
 
