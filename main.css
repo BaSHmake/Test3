@@ -249,7 +249,7 @@ button:active {
 } 
 
 .sui {
- display: flex; 
+ display: none; 
  gap: 15px;
  margin-top: 20px;
  background: orange;
@@ -259,7 +259,7 @@ button:active {
 }
 
 #burger:checked ~ .sui {
- display: block;
+ display: flex;
  background-color: blue !important;
 } 
 
