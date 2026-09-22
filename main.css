@@ -151,7 +151,7 @@ main p, li {
   0 0 12px red;
 }
 
-.sui {
+/* .sui {
  display: none;
  gap: 15px;
  margin-top: 20px;
@@ -162,7 +162,7 @@ main p, li {
 
  #burger:checked ~ .sui {
  display: flex;
-} 
+} */
 
 aside p {
  text-shadow:
@@ -252,7 +252,8 @@ button:active {
 /* display: none; */
  gap: 15px;
  margin-top: 20px;
- background: rgba(255, 170, 10, 0.5);
+ background: blue;
+ border: 7px solid green;
  border-radius: 12px;
  flex-direction: column;
 }
