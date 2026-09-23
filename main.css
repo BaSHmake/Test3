@@ -257,7 +257,7 @@ button:active {
  flex-direction: column;
 }
 
-#burger:checked ~ .sui {
+#burger:checked .sui {
  display: flex;
  background-color: blue !important;
 } 
