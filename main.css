@@ -281,7 +281,7 @@ main, aside {
 }
 
 .salo {
- width: 100%;
+ width: 80px;
  margin: 40px auto;
  border-radius: 15px;
  
@@ -291,4 +291,21 @@ main, aside {
  display: none;
 }
 
+.lasos {
+ display: flex;
+ width: 300%;
+ transition: transform 0.5s ease;
+}
+
 .ji {
+ width: 33.333%;
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: black;
+}
+
+ji1 {background: yellow;}
+ji2 {background: blue;}
+ji3 {background: green;}
