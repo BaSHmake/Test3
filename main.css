@@ -288,6 +288,7 @@ main, aside {
  margin: 40px auto;
  border-radius: 15px;
  overflow: hidden;
+ border: solid 3px red;
 }
 
 .salo input[type="radio"] {
@@ -334,5 +335,12 @@ main, aside {
  background: linear-gradient(180deg, white, siver, grey, black, grey, silver);
  color: white;
  border-radius: 50%;
+ border: solid 1.5px black;
  transition: all 0.3s ease;
+}
+
+.cont label:hover {
+ transform:
+  scale(1.1);
+ color: gold;
 }
