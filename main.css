@@ -331,7 +331,7 @@ main, aside {
  align-items: center;
  width: 20px;
  height: 20px;
- background: grey;
+ background: linear-gradient(180deg, white, siver, grey, black, grey, silver);
  color: white;
  border-radius: 50%;
  transition: all 0.3s ease;
