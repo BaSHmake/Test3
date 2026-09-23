@@ -280,3 +280,15 @@ main, aside {
     min-width: 0; 
 }
 
+.salo {
+ width: 100%;
+ margin: 40px auto;
+ border-radius: 15px;
+ 
+}
+
+.salo input[type="radio"] {
+ display: none;
+}
+
+.ji {
