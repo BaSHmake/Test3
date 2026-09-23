@@ -250,6 +250,7 @@ button:active {
 } 
 
 .sui { 
+ display: none;
  gap: 15px;
  margin-top: 20px;
  background: orange;
@@ -258,7 +259,7 @@ button:active {
  flex-direction: column;
 }
 
-#burger:checked .sui {
+#burger:checked ~ .sui {
  display: flex;
  background-color: blue !important;
 } 
