@@ -297,7 +297,7 @@ main, aside {
  transition: transform 0.5s ease;
 }
 
-.ji {
+sos {
  width: 33.333%;
  height: 80px;
  display: flex;
@@ -306,8 +306,30 @@ main, aside {
  color: black;
 }
 
-.ji1 {background: yellow;}
-.ji2 {background: blue;}
-ji3 {background: green;}
+.sos1 { background: yellow; }
+.sos2 { background: blue; }
+.sos3 { background: green; }
 
-#
+#ji1:checked ~ .sos { transform: translateX(0); }
+#ji2:checked ~ .sos { transform: translateX(-33.333%); }
+#ji3:checked ~ .sos { transform: translateX(-66.666%); }
+
+.cont {
+ display: flex;
+ justify-content: center;
+ gap: 5px;
+ padding: 7.5px;
+ background: silver;
+}
+
+.cont label { 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 20px;
+ height: 20px;
+ background: grey;
+ color: white;
+ border-radius: 50%;
+ transition: all 0.3s ease;
+}
