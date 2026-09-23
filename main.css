@@ -181,6 +181,7 @@ aside {
  box-sizing: border-box;
  border-left: 3px groove red;
  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
+ min-width: 0;
 }
 
 button {
@@ -281,7 +282,9 @@ main, aside {
 }
 
 .salo {
- width: 350px;
+ width: 100%;
+ max-width: 350px;
+ min-width: 0;
  margin: 40px auto;
  border-radius: 15px;
  
