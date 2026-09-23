@@ -281,7 +281,7 @@ main, aside {
 }
 
 .salo {
- width: 80px;
+ width: 350px;
  margin: 40px auto;
  border-radius: 15px;
  
@@ -297,7 +297,7 @@ main, aside {
  transition: transform 0.5s ease;
 }
 
-sos {
+.sos {
  width: 33.333%;
  height: 80px;
  display: flex;
@@ -310,9 +310,9 @@ sos {
 .sos2 { background: blue; }
 .sos3 { background: green; }
 
-#ji1:checked ~ .sos { transform: translateX(0); }
-#ji2:checked ~ .sos { transform: translateX(-33.333%); }
-#ji3:checked ~ .sos { transform: translateX(-66.666%); }
+#ji1:checked ~ .lasos { transform: translateX(0); }
+#ji2:checked ~ .lasos { transform: translateX(-33.333%); }
+#ji3:checked ~ .lasos { transform: translateX(-66.666%); }
 
 .cont {
  display: flex;
