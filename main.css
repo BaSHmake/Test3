@@ -287,7 +287,7 @@ main, aside {
  min-width: 0;
  margin: 40px auto;
  border-radius: 15px;
- 
+ overflow: hidden;
 }
 
 .salo input[type="radio"] {
