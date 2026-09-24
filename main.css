@@ -253,6 +253,7 @@ details[open] .bikov span:nth-child(3) {
  display: none;
  gap: 15px;
  margin-top: 20px;
+ padding: 5px;
  background: orange;
  border: 2px double red;
  border-radius: 12px;
