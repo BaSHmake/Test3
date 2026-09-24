@@ -237,7 +237,7 @@ button:active {
  transition: all 0.35s ease;
 }
 
-details[open] ~ .bikov span:nth-child(1) {
+details[open] .bikov span:nth-child(1) {
  transform: translateY(23px) rotate(45deg);
 }
 
@@ -259,7 +259,7 @@ details[open] .bikov span:nth-child(3) {
  flex-direction: column;
 }
 
-#burger[open] ~ .sui {
+details[open] .sui {
  display: flex;
  background-color: blue !important;
 } 
