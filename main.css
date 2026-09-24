@@ -208,9 +208,9 @@ button:active {
     animation: none;
 }
 
- #burger {
+/* #burger {
  display: none; 
-} 
+} */
 
 .bikov {
  display: flex;
@@ -237,15 +237,15 @@ button:active {
  transition: all 0.35s ease;
 }
 
-#burger:checked ~ .bikov span:nth-child(1) {
+details[open] ~ .bikov span:nth-child(1) {
  transform: translateY(23px) rotate(45deg);
 }
 
-#burger:checked ~ .bikov span:nth-child(2) {
+details[open] .bikov span:nth-child(2) {
  opacity: 0;
 }
 
-#burger:checked ~ .bikov span:nth-child(3) {
+details[open] .bikov span:nth-child(3) {
  transform: translateY(-23px) rotate(-45deg);
 } 
 
@@ -259,7 +259,7 @@ button:active {
  flex-direction: column;
 }
 
-#burger:checked ~ .sui {
+#burger[open] ~ .sui {
  display: flex;
  background-color: blue !important;
 } 
