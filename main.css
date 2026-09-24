@@ -258,16 +258,19 @@ details[open] .bikov span:nth-child(3) {
  border: 2px double red;
  border-radius: 12px;
  flex-direction: column;
+ opacity: 0;
+ transition: opacity 0.5s ease;
 }
 
 details[open] .sui {
  display: flex;
+ opacity: 1;
 } 
 
 .ronaldo {
  display: grid;
  grid-template-rows: 0fr;
- transition: all 0.4 ease;
+ transition: all 0.4s ease;
  overflow: hidden;
 }
 
