@@ -333,7 +333,7 @@ main, aside {
  align-items: center;
  width: 20px;
  height: 20px;
- background: linear-gradient(180deg, white, siver, grey, black, grey, silver);
+ background: linear-gradient(180deg, white, silver, grey, black, grey, silver);
  color: white;
  border-radius: 50%;
  border: solid 1.5px black;
