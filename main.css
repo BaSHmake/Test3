@@ -337,7 +337,7 @@ main, aside {
  justify-content: center;
  gap: 5px;
  padding: 7.5px;
- background: linear-gradient(180deg, white, silver, grey, black, grey, silver);;
+ background: linear-gradient(90deg, black, grey, silver, white, silver, grey);
 }
 
 .cont label { 
