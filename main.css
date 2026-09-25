@@ -88,7 +88,7 @@ header {
 
 main {
  background: var(--best);
- color: var(--b);
+ color: var(--t);
  height: 550px;
  /* padding: 20px; */
  overflow-wrap: break-word;
@@ -125,11 +125,11 @@ main {
 li {
  position: relative;
  left: -15px;
- color: var(--b);
+ color: var(--t);
 }
 
 a {
- color: var(--b);
+ color: var(--t);
  transition: all 0.25s ease;
  transform: scale(1.1);
  display: inline-block;
@@ -176,7 +176,7 @@ aside p {
 
 aside {
  background: linear-gradient(45deg, black, red, orange, yellow);
- color: var(--b); 
+ color: var(--t); 
  height: 550px;
  padding: 20px;
  overflow-wrap: break-word;
@@ -192,7 +192,7 @@ button {
  width: 150px;
  height: 40px;
  background: linear-gradient(45deg, red, orange, red, yellow, red) ;
- color: var(--b);
+ color: var(--t);
  border: 2px solid black;
  border-color: var(--b);
  border-radius: 10px;
@@ -329,7 +329,7 @@ main, aside {
  display: flex;
  justify-content: center;
  align-items: center;
- color: var(--b);
+ color: var(--t);
 }
 
 .sos1 { background: var(--y); }
