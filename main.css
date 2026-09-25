@@ -302,7 +302,7 @@ main, aside {
  margin: 40px auto;
  border-radius: 15px;
  overflow: hidden;
- border: solid 3px red;
+ border: solid 3px black;
 }
 
 .salo input[type="radio"] {
@@ -337,7 +337,7 @@ main, aside {
  justify-content: center;
  gap: 5px;
  padding: 7.5px;
- background: silver;
+ background: linear-gradient(180deg, white, silver, grey, black, grey, silver);;
 }
 
 .cont label { 
@@ -346,7 +346,7 @@ main, aside {
  align-items: center;
  width: 20px;
  height: 20px;
- background: linear-gradient(180deg, white, silver, grey, black, grey, silver);
+ background: grey;
  color: white;
  border-radius: 50%;
  border: solid 1.5px black;
