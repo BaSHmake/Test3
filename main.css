@@ -354,7 +354,7 @@ main, aside {
  align-items: center;
  width: 20px;
  height: 20px;
- background: var(--g);
+ background: var(--gy);
  color: var(--w);
  border-radius: 50%;
  border: solid 1.5px black;
@@ -383,6 +383,7 @@ main, aside {
  --gr: green;
  --g: gold;
  --w: white;
+ --gy: grey;
 }
 
 
