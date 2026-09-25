@@ -250,6 +250,7 @@ details[open] .bikov span:nth-child(3) {
 } 
 
 .sui { 
+ display: flex;
  gap: 15px;
  margin-top: 20px;
  padding: 5px;
@@ -270,6 +271,7 @@ details[open] .sui {
  grid-template-rows: 0fr;
  transition: all 0.4s ease;
  overflow: hidden;
+ min-height: 0;
 }
 
 details[open] .ronaldo {
