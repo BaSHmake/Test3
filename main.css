@@ -359,3 +359,11 @@ main, aside {
  color: gold;
 }
 
+
+
+body:has(#67:checked)  {
+ --bg: 0b0b0b;
+ --txt: e0e0e0;
+ --crd: 1a1a1a;
+ --brd: 333333;
+}
