@@ -378,3 +378,7 @@ header, main, aside, footer {
  background: var(--crd);
  color: var(--txt);
 }
+
+body:has(#69:checked)  {
+ filter: invert;
+}
