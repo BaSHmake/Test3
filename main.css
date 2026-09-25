@@ -250,7 +250,6 @@ details[open] .bikov span:nth-child(3) {
 } 
 
 .sui { 
- display: none;
  gap: 15px;
  margin-top: 20px;
  padding: 5px;
@@ -263,7 +262,6 @@ details[open] .bikov span:nth-child(3) {
 }
 
 details[open] .sui {
- display: flex;
  opacity: 1;
 } 
 
