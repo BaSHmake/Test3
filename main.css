@@ -3,7 +3,7 @@ body {
  padding: 0px;
  display: flex;
  flex-wrap: wrap;
- background: rgba(255, 20, 20, 0.2);
+ background: var(--bobi) 
  font-family: 'Inter', sans-serif;
  /* animation: LoaDing 0.85s ease; */
 }
@@ -22,7 +22,7 @@ body {
 .ld {
  position: fixed;
  inset: 0;
- background: #990606;
+ background: var(--best);
  display: flex;
  justify-content: center;
  align-items: center; 
@@ -47,7 +47,7 @@ body {
 .dots span {
  width: 20px;
  height: 20px;
- background: orange;
+ background: var(--o);
  animation: zxc 0.5s infinite alternate;
  border-radius: 50%;
 }
@@ -67,27 +67,28 @@ body {
 }
 
 header {
- background: black;
- color: red;
+ background: var(--b);
+ color: var(--r);
  width: 100%; 
  height: 100px;
  text-align: center;
  /* line-height: 100px; */
  padding: 20px 20px;
  border-bottom: 5px double red;
+ border-bottom-color: var(--r) 
  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
  box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.7); 
 }
 
 .hedr:hover {
- color: orange;
+ color: var(--o);
  transform: scale(1.1);
  transition: all 0.2s ease;
 }
 
 main {
- background: #990606;
- color: black;
+ background: var(--best);
+ color: var(--b);
  height: 550px;
  /* padding: 20px; */
  overflow-wrap: break-word;
@@ -104,6 +105,7 @@ main {
 
 #unmain {flex: 1; 
          border-top: 3px solid red;
+         border-bottom-color: var(--r)
          padding: 10px;}
 
 #go {
@@ -111,9 +113,10 @@ main {
  width: 120px;
  height: 40px;
  background: linear-gradient(45deg, red, orange, red) ;
- color: black;
+ color: var(--b);
  text-decoration: none;
  border: 2px solid black;
+ border-color: var(--b);
  border-radius: 10px;
  text-align: center;
  box-shadow: 0 5px 0 #990000;
@@ -122,11 +125,11 @@ main {
 li {
  position: relative;
  left: -15px;
- color: black;
+ color: var(--b);
 }
 
 a {
- color: black;
+ color: var(--b);
  transition: all 0.25s ease;
  transform: scale(1.1);
  display: inline-block;
@@ -134,7 +137,7 @@ a {
 
 a:hover {
  transform: scale(1.1) rotate(5deg) translateY(5px);
- color: gold;
+ color: var(--g);
 }
 
 header p {
@@ -173,13 +176,14 @@ aside p {
 
 aside {
  background: linear-gradient(45deg, black, red, orange, yellow);
- color: black; 
+ color: var(--b); 
  height: 550px;
  padding: 20px;
  overflow-wrap: break-word;
  flex: 1;
  box-sizing: border-box;
  border-left: 3px groove red;
+ border-left-color: var(--r);
  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
  min-width: 0;
 }
@@ -188,8 +192,9 @@ button {
  width: 150px;
  height: 40px;
  background: linear-gradient(45deg, red, orange, red, yellow, red) ;
- color: black;
+ color: var(--b);
  border: 2px solid black;
+ border-color: var(--b);
  border-radius: 10px;
  text-align: center;
  box-shadow: 0 5px 0 #990000;
@@ -230,7 +235,7 @@ button:active {
  width: 100%;
  height: 4px;
  border-radius: 1px;
- background: yellow;
+ background: var(--y);
 /*  margin-left: auto;
  margin-right: auto; 
  margin-top: 30px; */
@@ -254,8 +259,9 @@ details[open] .bikov span:nth-child(3) {
  gap: 15px;
  margin-top: 20px;
  padding: 5px;
- background: orange;
+ background: var(--o);
  border: 2px double red;
+ border-color: var(--r)
  border-radius: 12px;
  flex-direction: column;
  opacity: 0;
@@ -279,13 +285,14 @@ details[open] .ronaldo {
 }
 
 footer {
-background: black;
-color: red; 
+background: var(--b);
+color: var(--r); 
 width: 100%; 
 height: 50px;
 text-align: center;
 line-height: 50px;
 border-top: 7px double red;
+border-top-color: var(--r);
 box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.7);
 }
 
@@ -303,6 +310,7 @@ main, aside {
  border-radius: 15px;
  overflow: hidden;
  border: solid 3px black;
+ border-color: var(--b)
 }
 
 .salo input[type="radio"] {
@@ -321,12 +329,12 @@ main, aside {
  display: flex;
  justify-content: center;
  align-items: center;
- color: black;
+ color: var(--b);
 }
 
-.sos1 { background: yellow; }
-.sos2 { background: blue; }
-.sos3 { background: green; }
+.sos1 { background: var(--y); }
+.sos2 { background: var(--bl);}
+.sos3 { background: var(--gr);}
 
 #ji1:checked ~ .lasos { transform: translateX(0); }
 #ji2:checked ~ .lasos { transform: translateX(-33.333%); }
@@ -346,17 +354,18 @@ main, aside {
  align-items: center;
  width: 20px;
  height: 20px;
- background: grey;
- color: white;
+ background: var(--g);
+ color: var(--w);
  border-radius: 50%;
  border: solid 1.5px black;
+ border-color: var(--b)
  transition: all 0.3s ease;
 }
 
 .cont label:hover {
  transform:
   scale(1.1);
- color: gold;
+ color: var(--g);
 }
 
 
@@ -368,7 +377,7 @@ body:has(#67:checked)  {
  --brd: #333333;
 }
 
-header, main, aside, footer {
+/* header, main, aside, footer {
  background: var(--bg);
  color: var(--txt);
  border-color: var(--brd);
@@ -377,7 +386,7 @@ header, main, aside, footer {
 .pank, .sos {
  background: var(--crd);
  color: var(--txt);
-}
+} */
 
 body:has(#69:checked)  {
  filter: invert;
