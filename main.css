@@ -370,6 +370,22 @@ main, aside {
 
 
 
+
+:root {
+ --bobi: rgba(255, 20, 20, 0.4);
+ --best: #990606;
+ --b: black;
+ --t: black;
+ --o: orange;
+ --r: red;
+ --y: yellow;
+ --bl: blue;
+ --gr: green;
+ --g: gold;
+ --w: white;
+}
+
+
 body:has(#67:checked)  {
  --bg: #0b0b0b;
  --txt: #e0e0e0;
