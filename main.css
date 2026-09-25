@@ -367,3 +367,10 @@ body:has(#67:checked)  {
  --crd: 1a1a1a;
  --brd: 333333;
 }
+
+header, main, aside, footer {
+ background: var(--bg);
+ color: var(--txt);
+}
+
+
