@@ -371,6 +371,10 @@ body:has(#67:checked)  {
 header, main, aside, footer {
  background: var(--bg);
  color: var(--txt);
+ border-color: var(--brd);
 }
 
-
+.pank, .sos {
+ background: var(--crd);
+ color: var(--txt);
+}
