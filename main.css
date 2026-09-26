@@ -387,7 +387,7 @@ html {
 }
 
 
-html:has(#67:checked)  {
+/* html:has(#67:checked)  {
 /* --bg: #0b0b0b;
  --txt: #e0e0e0;
  --crd: #1a1a1a;
@@ -404,7 +404,10 @@ html:has(#67:checked)  {
  --g: #e0e0e0;
  --w: white;
  --gy: grey;
+} */
 
+html:has(#67:checked) body {
+    background: red !important;
 }
 
 
