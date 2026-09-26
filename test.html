@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    :root:has(#check:checked) {
+        background: red;
+    }
+    #check {
+        display: none;
+    }
+</style>
+</head>
+<body>
+    <input type="checkbox" id="check">
+    <label for="check">Кликни меня</label>
+    <p>Если фон станет красным — :has() работает.</p>
+</body>
+</html>
