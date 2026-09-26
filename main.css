@@ -3,7 +3,7 @@ body {
  padding: 0px;
  display: flex;
  flex-wrap: wrap;
- background: var(--bobi) 
+ background: var(--bobi);
  font-family: 'Inter', sans-serif;
  /* animation: LoaDing 0.85s ease; */
 }
