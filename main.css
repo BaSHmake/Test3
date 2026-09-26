@@ -387,23 +387,26 @@ main, aside {
 }
 
 
-body:has(#67:checked)  {
- --bg: #0b0b0b;
+:root:has(#67:checked)  {
+/* --bg: #0b0b0b;
  --txt: #e0e0e0;
  --crd: #1a1a1a;
- --brd: #333333;
+ --brd: #333333; */
+ --t: #e0e0e0;
+ --bobi: rgba(200, 200, 200, 0.35);
+ --best: #0b0b0b;
+ --b: black;
+ --o: #0b0b0b;
+ --r: #0b0b0b;
+ --y: #1a1a1a;
+ --bl: #1a1a1a;
+ --gr: #1a1a1a;
+ --g: #e0e0e0;
+ --w: white;
+ --gy: grey;
+
 }
 
-/* header, main, aside, footer {
- background: var(--bg);
- color: var(--txt);
- border-color: var(--brd);
-}
-
-.pank, .sos {
- background: var(--crd);
- color: var(--txt);
-} */
 
 body:has(#69:checked)  {
  filter: invert;
