@@ -26,8 +26,8 @@
  --gy: grey;
 }
 
-#67:checked ~ body {
-    background: red !important;
+:root:has(#67:checked) {
+    filter: grayscale(1) contrast(1.2) brightness(0.9);
 }
 
 #67, #69 {
