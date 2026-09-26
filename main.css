@@ -388,10 +388,10 @@ html {
 
 
 /* html:has(#67:checked)  {
-/* --bg: #0b0b0b;
+ --bg: #0b0b0b;
  --txt: #e0e0e0;
  --crd: #1a1a1a;
- --brd: #333333; */
+ --brd: #333333; 
  --t: #e0e0e0;
  --bobi: rgba(200, 200, 200, 0.35);
  --best: #0b0b0b;
