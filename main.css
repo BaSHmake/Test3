@@ -387,7 +387,7 @@ html {
 }
 
 
-/* html:has(#67:checked)  {
+html:has(#yay:checked)  {
  --bg: #0b0b0b;
  --txt: #e0e0e0;
  --crd: #1a1a1a;
@@ -404,17 +404,17 @@ html {
  --g: #e0e0e0;
  --w: white;
  --gy: grey;
+} 
+
+/* :root:has(#67:checked) body {
+    background: red !important;
 } */
 
-:root:has(#67:checked) body {
-    background: red !important;
-}
-
-#67, #69 {
+#yay, #yoy {
  display: none;
 }
 
 
-/* html:has(#69:checked)  {
+ html:has(#yoy:checked)  {
  filter: invert(1);
-} */
+} 
