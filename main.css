@@ -392,16 +392,16 @@ html:has(#yay:checked)  {
  --txt: #e0e0e0;
  --crd: #1a1a1a;
  --brd: #333333; 
- --t: #e0e0e0;
- --bobi: rgba(200, 200, 200, 0.35);
+ --t: #78787a;
+ --bobi: rgba(200, 200, 200, 0.9);
  --best: #0b0b0b;
- --b: black;
- --o: #0b0b0b;
- --r: #0b0b0b;
- --y: #1a1a1a;
- --bl: #1a1a1a;
- --gr: #1a1a1a;
- --g: #e0e0e0;
+ --b: #19171c;
+ --o: #28252c;
+ --r: #28252c;
+ --y: #28252c;
+ --bl: #28252c;
+ --gr: #28252c;
+ --g: #78787a;
  --w: white;
  --gy: grey;
 } 
