@@ -409,5 +409,5 @@ html:has(#67:checked)  {
 
 
 html:has(#69:checked)  {
- filter: invert;
+ filter: invert(1);
 }
