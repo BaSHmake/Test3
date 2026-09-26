@@ -112,7 +112,7 @@ main {
  display: inline-block;
  width: 120px;
  height: 40px;
- background: linear-gradient(45deg, red, orange, red) ;
+ background: var(--zad3);
  color: var(--b);
  text-decoration: none;
  border: 2px solid black;
@@ -175,7 +175,7 @@ aside p {
 }
 
 aside {
- background: linear-gradient(45deg, black, red, orange, yellow);
+ background: var(--zad1);
  color: var(--t); 
  height: 550px;
  padding: 20px;
@@ -191,7 +191,7 @@ aside {
 button {
  width: 150px;
  height: 40px;
- background: linear-gradient(45deg, red, orange, red, yellow, red) ;
+ background: var(--zad2);
  color: var(--t);
  border: 2px solid black;
  border-color: var(--b);
@@ -384,6 +384,9 @@ html {
  --g: gold;
  --w: white;
  --gy: grey;
+ --zad1: linear-gradient(45deg, black, red, orange, yellow);
+ --zad2: linear-gradient(45deg, red, orange, red, yellow, red);
+ --zad3: linear-gradient(45deg, red, orange, red) ;
 }
 
 
@@ -404,6 +407,9 @@ html:has(#yay:checked)  {
  --g: #78787a;
  --w: white;
  --gy: grey;
+ --zad1: #696969;
+ --zad2: #696969;
+ --zad3: #696969;
 } 
 
 /* :root:has(#67:checked) body {
