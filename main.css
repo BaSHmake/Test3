@@ -410,6 +410,10 @@ html {
     background: red !important;
 }
 
+#67, #69 {
+ display: none
+}
+
 
 /* html:has(#69:checked)  {
  filter: invert(1);
