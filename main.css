@@ -75,7 +75,7 @@ header {
  /* line-height: 100px; */
  padding: 20px 20px;
  border-bottom: 5px double red;
- border-bottom-color: var(--r) 
+ border-bottom-color: var(--r); 
  filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.5));
  box-shadow: inset 0 0 20px rgba(170, 170, 170, 0.7); 
 }
@@ -105,7 +105,7 @@ main {
 
 #unmain {flex: 1; 
          border-top: 3px solid red;
-         border-bottom-color: var(--r)
+         border-bottom-color: var(--r);
          padding: 10px;}
 
 #go {
@@ -261,7 +261,7 @@ details[open] .bikov span:nth-child(3) {
  padding: 5px;
  background: var(--o);
  border: 2px double red;
- border-color: var(--r)
+ border-color: var(--r);
  border-radius: 12px;
  flex-direction: column;
  opacity: 0;
@@ -310,7 +310,7 @@ main, aside {
  border-radius: 15px;
  overflow: hidden;
  border: solid 3px black;
- border-color: var(--b)
+ border-color: var(--b);
 }
 
 .salo input[type="radio"] {
@@ -358,7 +358,7 @@ main, aside {
  color: var(--w);
  border-radius: 50%;
  border: solid 1.5px black;
- border-color: var(--b)
+ border-color: var(--b);
  transition: all 0.3s ease;
 }
 
