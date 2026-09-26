@@ -411,6 +411,6 @@ html:has(#67:checked) body {
 }
 
 
-html:has(#69:checked)  {
+/* html:has(#69:checked)  {
  filter: invert(1);
-}
+} */
