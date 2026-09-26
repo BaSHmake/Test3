@@ -406,7 +406,7 @@ html {
  --gy: grey;
 } */
 
-html:has(#67:checked) body {
+:root:has(#67:checked) body {
     background: red !important;
 }
 
