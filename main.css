@@ -371,7 +371,7 @@ main, aside {
 
 
 
-:root {
+html {
  --bobi: rgba(255, 20, 20, 0.4);
  --best: #990606;
  --b: black;
@@ -387,7 +387,7 @@ main, aside {
 }
 
 
-:root:has(#67:checked)  {
+html:has(#67:checked)  {
 /* --bg: #0b0b0b;
  --txt: #e0e0e0;
  --crd: #1a1a1a;
@@ -408,6 +408,6 @@ main, aside {
 }
 
 
-body:has(#69:checked)  {
+html:has(#69:checked)  {
  filter: invert;
 }
